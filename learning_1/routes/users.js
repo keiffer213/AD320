@@ -7,6 +7,8 @@ const router = express.Router()
 // app.use(logger)
 
 router.get('/', (req, res) => {
+    //if we want to pass a name into the url like: /users?name=Keiffer
+    console.log(req.query.name)
     res.send('User List')
 })
 
@@ -26,7 +28,7 @@ router.post('/', (req, res) => {
         users.push({ firstName: req.body.firstName })
         //redirect just changes the url
         res.redirect(`/users/${users.length - 1}`)
-    } else {
+    } else { //if false print error and brings us back to page with the original text inside the form
         console.log("Error")
         res.render('users/new', { firstName: req.body.firstName})
     }

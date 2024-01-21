@@ -14,6 +14,7 @@ const app = express()
 //middleware function that will be able to easily render path html files
 app.use(express.static('public')) //function takes parameter folder name
 app.use(express.urlencoded({ extended: true })) //allows us to access information coming from forms
+app.use(express.json()) //does everything same as urlencoded but works when there is a json request
 
 //code you need to use view engine ejs
 app.set('view engine', 'ejs')
