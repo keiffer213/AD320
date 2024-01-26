@@ -7,14 +7,14 @@ const fooRouter = express.Router()
 //first path
 fooRouter.get('/', (req, res) => {
     console.log(req.url);
-    res.status(200).type('text/plan').send('Foo Page');
+    res.status(200).type('text/plain').send('Foo Page');
 });
 
 
 //second path
 fooRouter.get('/test1', (req, res) => {
     console.log(req.url);
-    res.status(200).type('text/plan').send('Test1');
+    res.status(200).type('text/plain').send('Test1');
 });
 
 
