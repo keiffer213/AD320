@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 //for some reason this works for some reason from research but I cannot find why
-app.get(/\/user(name)?/, (req, res) => {
+app.get(/user(name)?/, (req, res) => {
     res.type('text/plain');
     res.send('Matched /user or /username');
 });
