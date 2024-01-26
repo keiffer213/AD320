@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 const fooRouter = require('./routes/foo');
 app.use('/foo', fooRouter);
 
-//placed the following below foo to call all paths not in foo route or general route
+// placed the following below foo to call all paths not in foo route or general route
 app.use((req, res) => {
     res.type('text/plain');
     res.status(404).send('Not Found');
