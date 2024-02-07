@@ -8,8 +8,8 @@ This assignment containts multiple files
 	- index.html: simple html webpage to print out dogfacts
 	- scripts.js: holds the async function getFact(id) & getFacts(id) that will be called to retrieve 
 		      facts by creating an api call
-		~ to get the endpoint i used 'http://localhost:3000/dog-facts'
-		~ using jData = await res.json(), you can access certain facts by retrieving jData[index];
+	  	- to get the endpoint i used 'http://localhost:3000/dog-facts'
+		- using jData = await res.json(), you can access certain facts by retrieving jData[index];
 
 Reflection:
    This was an interesting assignment, to take all the concepts from all the previous assignments and compliting it into one. Being new to javascript to NodeJS, this was definitely challenging, but with a lot of research, I believe I was able to fully complete the assignment! 
