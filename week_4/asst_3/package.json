@@ -1,0 +1,25 @@
+{
+  "name": "asst_3",
+  "version": "1.0.0",
+  "description": "Assignment: Dog Facts API v1 Replica with NodeJS and ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [
+    "git",
+    "npm",
+    "node",
+    "express"
+  ],
+  "author": "Keiffer Tan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

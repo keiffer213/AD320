@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment: Dog Facts API v1</title>
+    <script src="./scripts.js"></script>
+    <style>
+
+        * {
+            margin: 10px;
+        }
+
+        div {
+            margin-bottom: 25px;
+        }
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            font-size: 25px;
+        }
+
+        input {
+            display: block;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Dog Facts!</h1>
+
+    <button id="b1" onclick="getFact('dogFact')">Click Me For A Dog Fact!</button>
+    <div id="dogFact"></div>
+    
+    <lable for="numFacts">How many facts would you like?</lable>
+    <input type="number" id="numOfFacts" name="numFacts">
+    <button id="b2" onclick="getFacts('dogFacts2')">Click Me For Facts!</button>
+    <div id="dogFacts2"></div>
+
+</body>
+</html>
