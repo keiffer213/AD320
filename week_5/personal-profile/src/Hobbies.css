@@ -1,0 +1,16 @@
+.Hobbies{
+    text-align: center;
+}
+
+
+.Hobbies h2{
+    margin: 0;
+}
+
+.Hobbies ul {
+
+    list-style-type:decimal;
+    /* list-style-position:inside; */
+    display: inline-block;
+    text-align: left;
+}
