@@ -1,3 +1,25 @@
+Gatsby App
+
+create an expo app with: npx create-gatsby "app_name"
+
+
+to run the program, type: npm run start
+go to the browser and type: localhost:5000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
