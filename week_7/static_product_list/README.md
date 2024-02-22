@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+This project is mainly to understand rending a list from a constant array using the map() function. 
+
+I accomplished this task by declaring a constant array named "products" in the ProductList.js file. In the function ProductList, using the map() function, I output the information from the products array in a list style. I chose to just have the styles be associated with the tag for ease. I would normally prefer to use tailwindcss if this was a more extensive project.
+
+To run this easily, just type 'npm run start'
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
