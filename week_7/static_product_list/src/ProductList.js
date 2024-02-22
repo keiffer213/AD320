@@ -15,6 +15,7 @@ const ProductList = () => {
 
   return (
     <div class='ProductList' >
+      {/* using map() function to map every element in the array using each unique id as a key */}
         {products.map(product => 
         <ul style={{ listStyleType:'none', textAlign:'left', padding:'10px', backgroundColor:'ghostwhite', lineHeight:'20px'}}>
             <li key={product.id}>product: {product.name}</li>
