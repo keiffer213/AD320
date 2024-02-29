@@ -8,7 +8,7 @@ const AlertButton = ({message, children}) => {
   
     return (
     <div>
-        <button onClick={dynamicButton} >
+        <button onClick={dynamicButton} style={{margin : '10px'}}>
         {children}
         </button>
     </div>
