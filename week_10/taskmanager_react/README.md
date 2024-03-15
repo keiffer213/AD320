@@ -1,3 +1,7 @@
+
+To ensure immutability when updating tasks, I created a new object for updates and I used 'setState' to update the state with the new object. So I am not directly altering each state.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
