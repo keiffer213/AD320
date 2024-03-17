@@ -1,0 +1,76 @@
+.App {
+  margin: 50px;
+}
+
+button {
+  margin: 5px;
+}
+
+.addItems{
+  background-color: antiquewhite;
+  padding: 12px;
+  margin-right: 3px;
+  display:inline-block;
+  border: solid 1px black;
+}
+
+.updateItems{
+  background-color: aliceblue;
+  padding: 12px;
+  margin-right: 3px;
+  display:inline-block;
+  border: solid 1px black;
+}
+
+.removeItems{
+  background-color:rgb(252, 230, 248);
+  padding: 12px;
+  display:inline-block;
+  border: solid 1px black;
+}
+
+.shoppingList{
+  background-color:rgb(230, 252, 240);
+  padding: 15px;
+  margin-top: 5px;
+  border: solid 1px black;
+}
+
+
+
+
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
