@@ -17,14 +17,14 @@ body:
     id: task-list
     attributes:
       label: Tasks
-      description: (Optional)List any tasks you need to accomlish this issue.
+      description: (Optional) List any tasks you need to accomlish this issue.
       value: |
         <!-- No need to fill, but recommended! -->
         <!--
 
         Tasks:
-          ✅ Task 1
-          ✅ Task 2
+        - [ ] Task 1
+        - [ ] Task 2
 
         -->
 
@@ -47,10 +47,10 @@ body:
   - type: markdown
     attributes:
       value: |
+        
         Please confirm the following when creating this issue.
 
         Issue Checklist:
-
             ✅ I have a clear description of the issue
             ✅ I have assigned myself to this issue
             ✅ I have assigned a label to this issue
