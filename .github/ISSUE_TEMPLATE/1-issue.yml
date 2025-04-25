@@ -9,13 +9,7 @@ body:
     attributes:
       label: Description
       description: Describe the issue, why it matters, and any context that helps explain it.
-      placeholder: |
-        Tell us about your issue!
-
-        Test line
-
-        Test line
-
+      placeholder: Tell us about your issue!
     validations:
       required: true
 
@@ -24,29 +18,14 @@ body:
     attributes:
       label: Visual Aids
       description: Add any screenshots, gifs, diagrams, or other visual references.
-      placeholder: |
-        Add any screenshots, gifs, diagrams, or other visual references.
-        
-        Test line
-        
-        Test line
-
-
-
-      render: html
-
-  - type: textarea
-    id: visuals-test
-    attributes:
-      label: Visual Aids-test
-      description: Add any screenshots, gifs, diagrams, or other visual references.
+      placeholder: Add any screenshots, gifs, diagrams, or other visual references.
       value: |
         <details>
           <summary> Expand ⬇️ </summary>
           <!-- add GIFs/Screenshots/Videos/Diagrams here -->
         </details>
 
-      render: markdown
+
 
 
 
