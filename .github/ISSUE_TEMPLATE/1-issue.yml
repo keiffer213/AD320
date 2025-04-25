@@ -41,16 +41,12 @@ body:
       value: |
         Please confirm the following when creating this issue.
 
-        <details>
-        <summary>Issue Checklist (click to expand)</summary>
-
-        - ✅ I have a clear description of the issue
-        - [x] I have assigned myself to this issue
-        - [x] I have assigned a label to this issue
-        - [x] I have assigned a project to this issue
-        - [x] I have linked my branch to this issue (will show up after creation)
-
-        </details>
+        Issue Checklist:
+          ✅ I have a clear description of the issue
+          ✅ I have assigned myself to this issue
+          ✅ I have assigned a label to this issue
+          ✅ I have assigned a project to this issue
+          ✅ I have linked my branch to this issue (will show up after creation)
 
   # If you want the checklist to be required, add the following:
   # It will prevent users from submitting the issue without checking the boxes
