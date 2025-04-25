@@ -36,8 +36,11 @@ body:
 
         </details>
 
-  - type: markdown
+  - type: textarea
+    id: pre_submission_checklist
     attributes:
+      label: Pre-Submission Checklist
+      description: Please confirm the following before creating this issue.
       value: |
         <details>
         <summary>Pre-Submission Checklist (click to expand)</summary>
@@ -49,20 +52,24 @@ body:
 
         </details>
 
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: Checklist
-      description: Confirm the following before submitting
-      options:
-        - label: I have a clear description of the issue
-          required: true
-        - label: I have assigned myself to this issue
-          required: true
-        - label: I have assigned a label to this issue
-          required: true
-        - label: I have assigned a project to this issue
-          required: true
+  # If you want the checklist to be required, add the following:
+  # It will prevent users from submitting the issue without checking the boxes
+  # but it will be visible in the issue unless deleted after creation 
+
+  # - type: checkboxes
+  #   id: checklist
+  #   attributes:
+  #     label: Checklist
+  #     description: Confirm the following before submitting
+  #     options:
+  #       - label: I have a clear description of the issue
+  #         required: true
+  #       - label: I have assigned myself to this issue
+  #         required: true
+  #       - label: I have assigned a label to this issue
+  #         required: true
+  #       - label: I have assigned a project to this issue
+  #         required: true
     
 
 
