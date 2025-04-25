@@ -1,6 +1,6 @@
 name: Issue
 description: Report a general issue not covered by other templates.
-title: "Issue title"
+title: "[Title of Issue]"
 labels: ["type:issue"]
 body:
 
@@ -10,6 +10,8 @@ body:
     attributes:
       label: Description
       description: Describe the issue, why it matters, and any context that helps explain it.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
 
