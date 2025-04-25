@@ -7,7 +7,8 @@ body:
     id: user_story
     attributes:
       label: User Story
-      description: Format as "As a <role>, I will want to <task>."
+      description: Format as "As a [role], I will want to [task/feature]."
+      placeholder: Ex. As a user, I will want to see a list of products.
     validations:
       required: true
   - type: textarea
