@@ -36,20 +36,19 @@ body:
 
         </details>
 
-  - type: textarea
-    id: issue_checklist
+  - type: markdown
     attributes:
-      label: Issue Checklist
-      description: Please confirm the following before creating this issue.
       value: |
+        Please confirm the following when creating this issue.
+
         <details>
         <summary>Issue Checklist (click to expand)</summary>
 
-        - [ ] I have a clear description of the issue
-        - [ ] I have assigned myself to this issue
-        - [ ] I have assigned a label to this issue
-        - [ ] I have assigned a project to this issue
-        - [ ] I have linked my branch to this issue
+        - ✅ I have a clear description of the issue
+        - [x] I have assigned myself to this issue
+        - [x] I have assigned a label to this issue
+        - [x] I have assigned a project to this issue
+        - [x] I have linked my branch to this issue (will show up after creation)
 
         </details>
 
