@@ -1,14 +1,9 @@
 name: Issue
 description: Report a general issue not covered by other templates.
+title: "Issue title"
 labels: ["type:issue"]
 body:
-  - type: input
-    id: issue_title
-    attributes:
-      label: Issue Title
-      description: A clear and descriptive title for this issue.
-    validations:
-      required: true
+
 
   - type: textarea
     id: issue_description
@@ -34,6 +29,3 @@ body:
   - type: markdown
     attributes:
       value: Sample code, additional context, etc.
-
-assignees:
-  - "username"
