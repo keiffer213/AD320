@@ -20,7 +20,7 @@ body:
       description: (Optional) List any tasks you need to accomlish this issue.
       value: |
         <!-- No need to fill, but recommended! -->
-        <!--
+        <!-- 
 
         Tasks:
         - [ ] Task 1
@@ -50,11 +50,11 @@ body:
         Please confirm the following when creating this issue.
 
         Issue Checklist:
-              ✅ I have a clear description of the issue
-              ✅ I have assigned myself to this issue
-              ✅ I have assigned a label to this issue
-              ✅ I have assigned a project to this issue
-              ✅ I have linked my branch to this issue (will show up after creation)
+          ✅ I have a clear description of the issue
+          ✅ I have assigned myself to this issue
+          ✅ I have assigned a label to this issue
+          ✅ I have assigned a project to this issue
+          ✅ I have linked my branch to this issue (will show up after creation)
 
   # If you want the checklist to be required, add the following:
   # It will prevent users from submitting the issue without checking the boxes
