@@ -15,7 +15,7 @@ body:
         Test line
 
         Test line
-        
+
     validations:
       required: true
 
@@ -24,14 +24,31 @@ body:
     attributes:
       label: Visual Aids
       description: Add any screenshots, gifs, diagrams, or other visual references.
-      placeholder: >
+      placeholder: |
         Add any screenshots, gifs, diagrams, or other visual references.
         
         Test line
         
         Test line
 
-      render: shell
+
+
+      render: html
+
+  - type: textarea
+    id: visuals-testmarkdown
+    attributes:
+      label: Visual Aids
+      description: Add any screenshots, gifs, diagrams, or other visual references.
+      placeholder: |
+        <details>
+          <summary> Expand ⬇️ </summary>
+          <!-- add GIFs/Screenshots/Videos/Diagrams here -->
+        </details>
+
+      render: markdown
+
+
 
   - type: input
     id: related_issues
