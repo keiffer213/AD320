@@ -1,6 +1,6 @@
 name: Issue
 description: Report a general issue not covered by other templates.
-title: "[Title of Issue]"
+title: "<[Title of Issue]>"
 labels: ["type:issue"]
 body:
 
@@ -23,11 +23,11 @@ body:
         <details>
           <summary> Expand ⬇️ </summary>
           <!-- add GIFs/Screenshots/Videos/Diagrams here -->
+          <!-- Leave a blank line below -->
+
+
+
         </details>
-
-
-
-
 
   - type: input
     id: related_issues
