@@ -36,11 +36,11 @@ body:
       render: html
 
   - type: textarea
-    id: visuals-testmarkdown
+    id: visuals
     attributes:
-      label: Visual Aids
+      label: Visual Aids-test
       description: Add any screenshots, gifs, diagrams, or other visual references.
-      placeholder: |
+      value: |
         <details>
           <summary> Expand ⬇️ </summary>
           <!-- add GIFs/Screenshots/Videos/Diagrams here -->
