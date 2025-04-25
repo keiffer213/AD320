@@ -37,18 +37,19 @@ body:
         </details>
 
   - type: textarea
-    id: pre_submission_checklist
+    id: issue_checklist
     attributes:
-      label: Pre-Submission Checklist
+      label: Issue Checklist
       description: Please confirm the following before creating this issue.
       value: |
         <details>
-        <summary>Pre-Submission Checklist (click to expand)</summary>
+        <summary>Issue Checklist (click to expand)</summary>
 
-        - [ ] I reviewed similar issues.
-        - [ ] I reproduced this bug locally.
-        - [ ] I added necessary labels.
-        - [ ] I tested the fix thoroughly.
+        - [ ] I have a clear description of the issue
+        - [ ] I have assigned myself to this issue
+        - [ ] I have assigned a label to this issue
+        - [ ] I have assigned a project to this issue
+        - [ ] I have linked my branch to this issue
 
         </details>
 
