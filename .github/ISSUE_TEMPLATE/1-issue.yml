@@ -1,6 +1,6 @@
-name: Issue
+name: ✒️ Issue ✒️
 description: Report a general issue not covered by other templates.
-title: "<[Title of Issue]>"
+title: "[Title of Issue]"
 labels: ["type:issue"]
 body:
 
@@ -17,7 +17,7 @@ body:
     id: visuals
     attributes:
       label: Visual Aids
-      description: Add any screenshots, gifs, diagrams, or other visual references.
+      description: (Optional, but recommended) Add any screenshots, gifs, diagrams, or other visual references.
       placeholder: Add any screenshots, gifs, diagrams, or other visual references.
       value: |
         <details>
@@ -35,6 +35,20 @@ body:
       label: Related Issues
       description: Mention any related issue numbers, like "#123".
 
-  - type: markdown
+  - type: checkboxes
+    id: checklist
     attributes:
-      value: Sample code, additional context, etc.
+      label: Checklist
+      description: Confirm the following before submitting
+      options:
+        - label: I have a clear description of the issue
+          required: true
+        - label: I have assigned myself to this issue
+          required: true
+        - label: I have assigned a label to this issue
+          required: true
+        - label: I have assigned a project to this issue
+          required: true
+    
+
+
