@@ -23,6 +23,7 @@ body:
     attributes:
       label: Visual Aids
       description: Add any screenshots, gifs, diagrams, or other visual references.
+      render: shell
 
   - type: input
     id: related_issues
