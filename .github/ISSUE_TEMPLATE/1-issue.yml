@@ -9,22 +9,30 @@ body:
     attributes:
       label: Description
       description: Describe the issue, why it matters, and any context that helps explain it.
-      placeholder: |
-        Tell us about your issue!
+      placeholder: Tell us about your issue!
+    validations:
+      required: true
 
-        List any tasks you need to accomlish this issue.
+  - type: textarea
+    id: task-list
+    attributes:
+      label: Tasks
+      description: (Optional)List any tasks you need to accomlish this issue.
+      value: |
+        <!-- No need to fill, but recommended! -->
+        <!--
+
         Tasks:
           ✅ Task 1
           ✅ Task 2
 
-    validations:
-      required: true
+        -->
 
   - type: textarea
     id: visuals
     attributes:
       label: Visual Aids
-      description: (Optional, but recommended) Add any screenshots, gifs, diagrams, or other visual references.
+      description: (Optional) Add any screenshots, gifs, diagrams, or other visual references.
       placeholder: Add any screenshots, gifs, diagrams, or other visual references.
       value: |
         <details>
@@ -42,11 +50,12 @@ body:
         Please confirm the following when creating this issue.
 
         Issue Checklist:
-          ✅ I have a clear description of the issue
-          ✅ I have assigned myself to this issue
-          ✅ I have assigned a label to this issue
-          ✅ I have assigned a project to this issue
-          ✅ I have linked my branch to this issue (will show up after creation)
+
+            ✅ I have a clear description of the issue
+            ✅ I have assigned myself to this issue
+            ✅ I have assigned a label to this issue
+            ✅ I have assigned a project to this issue
+            ✅ I have linked my branch to this issue (will show up after creation)
 
   # If you want the checklist to be required, add the following:
   # It will prevent users from submitting the issue without checking the boxes
