@@ -36,7 +36,7 @@ body:
       render: html
 
   - type: textarea
-    id: visuals
+    id: visuals-test
     attributes:
       label: Visual Aids-test
       description: Add any screenshots, gifs, diagrams, or other visual references.
