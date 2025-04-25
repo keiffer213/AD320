@@ -1,5 +1,6 @@
 name: 📣 Feature Request 📣
 description: Suggest a new feature or enhancement.
+title: "Feature Request: [Title of Feature Request]"
 labels: ["type:feature"]
 body:
   - type: input

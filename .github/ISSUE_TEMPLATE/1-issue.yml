@@ -1,6 +1,6 @@
 name: ✒️ Issue ✒️
 description: Report a general issue not covered by other templates.
-title: "[Title of Issue]"
+title: "Issue: [Title of Issue]"
 labels: ["type:issue"]
 body:
 
@@ -9,7 +9,14 @@ body:
     attributes:
       label: Description
       description: Describe the issue, why it matters, and any context that helps explain it.
-      placeholder: Tell us about your issue!
+      placeholder: |
+        Tell us about your issue!
+
+        List any tasks you need to accomlish this issue.
+        Tasks:
+          ✅ Task 1
+          ✅ Task 2
+
     validations:
       required: true
 
