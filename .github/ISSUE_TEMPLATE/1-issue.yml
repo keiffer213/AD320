@@ -36,11 +36,18 @@ body:
 
         </details>
 
-  - type: input
-    id: related_issues
+  - type: markdown
     attributes:
-      label: Related Issues
-      description: Mention any related issue numbers, like "#123".
+      value: |
+        <details>
+        <summary>Pre-Submission Checklist (click to expand)</summary>
+
+        - [ ] I reviewed similar issues.
+        - [ ] I reproduced this bug locally.
+        - [ ] I added necessary labels.
+        - [ ] I tested the fix thoroughly.
+
+        </details>
 
   - type: checkboxes
     id: checklist
