@@ -34,3 +34,6 @@ body:
   - type: markdown
     attributes:
       value: Sample code, additional context, etc.
+
+assignees:
+  - "username"
