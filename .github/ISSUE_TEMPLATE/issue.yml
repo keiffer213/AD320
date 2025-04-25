@@ -1,4 +1,4 @@
-name: General Issue
+name: Issue
 description: Report a general issue not covered by other templates.
 labels: ["type:issue"]
 body:
@@ -29,3 +29,7 @@ body:
     attributes:
       label: Related Issues
       description: Mention any related issue numbers, like "#123".
+
+  - type: markdown
+    attributes:
+      value: Sample code, additional context, etc.
