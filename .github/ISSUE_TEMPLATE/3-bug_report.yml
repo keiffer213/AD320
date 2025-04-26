@@ -8,6 +8,7 @@ body:
     attributes:
       label: Describe the Bug
       description: A clear and concise description of what the bug is.
+      placeholder: Ex. I'm unable to see a list of products.
     validations:
       required: true
   - type: textarea
@@ -16,37 +17,61 @@ body:
       label: Steps to Reproduce
       description: List steps to reproduce the behavior.
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
+        1. Run branch '...'
+        2. Go to '...'
+        3. Click on '...'
+        4. Scroll down to '...'
+        5. See error
+    validations:
+      required: true      
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
       description: Describe what you expected to happen.
+      placeholder: Ex. I expect to see a list of products.
+    validations:
+      required: true
   - type: textarea
-    id: screenshots
+    id: visuals
     attributes:
-      label: Screenshots
-      description: Add screenshots to help explain the problem.
+      label: Visual Aids
+      description: Add any screenshots, gifs, diagrams, or other visual references.
+      value: |
+        <details>
+          <summary> Expand ⬇️ </summary>
+          <!-- add GIFs/Screenshots/Videos/Diagrams here -->
+          <!-- Leave a blank line below -->
+
+
+
+        </details>
+    validations:
+      required: true
   - type: input
     id: system
     attributes:
       label: Desktop or Mobile Info
-      description: OS, browser, and version (e.g., macOS, Chrome 122).
+      description: Device, OS, browser, and version (e.g., [macOS, Chrome v132] or [iPhone 17, iOS 16, Safari]).
   - type: input
     id: related
     attributes:
       label: Related Issues
       description: Mention related issue IDs if applicable.
+      placeholder: Ex. Relates to #123
   - type: textarea
     id: context
     attributes:
       label: Additional Context
       description: Other relevant information or logs.
-  - type: input
-    id: story_points
+
+  - type: markdown
     attributes:
-      label: Story Points
-      description: Estimate in 30-minute units.
+      value: |
+        Please confirm the following when creating this bug report.
+
+        Issue Checklist:
+          ✅ I have a clear description of the bug
+          ✅ I have provided steps to reproduce the behavior
+          ✅ I have assigned a label to this issue
+          ✅ I have assigned a project to this issue
