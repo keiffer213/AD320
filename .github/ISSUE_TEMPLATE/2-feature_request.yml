@@ -16,33 +16,24 @@ body:
     attributes:
       label: Related Problem
       description: Explain the issue this feature would solve.
+      placeholder: Ex. I need to be able to see a list of products.
   - type: textarea
     id: solution
     attributes:
       label: Proposed Solution
       description: What do you want to happen?
-  - type: input
+      placeholder: Ex. Add a feature that lists products in a tile fornat.
+  - type: textarea
     id: tutorial_link
     attributes:
-      label: Relevant Tutorial Link
-      description: Provide a link to a relevant tutorial.
+      label: Relevant Tutorial Links and Resources
+      description: Provide a link to a relevant tutorials and resources.
   - type: textarea
-    id: alternatives
+    id: additional_info
     attributes:
-      label: Alternatives Considered
-      description: Other solutions you’ve thought of.
-  - type: input
-    id: related_issues
-    attributes:
-      label: Related Issues
-      description: Mention related issue IDs.
-  - type: textarea
-    id: additional_context
-    attributes:
-      label: Additional Context
-      description: More information, diagrams, or examples.
-  - type: input
-    id: story_points
-    attributes:
-      label: Story Points
-      description: Estimate in 30-minute units.
+      label: Additional Info
+      description: | 
+        Anything else you want to add?
+        Such as additional context, diagrams, related issues, examples, or alternative solutions.
+
+
