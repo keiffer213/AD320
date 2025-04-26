@@ -36,4 +36,12 @@ body:
         Anything else you want to add?
         Such as additional context, diagrams, related issues, examples, or alternative solutions.
 
+  - type: markdown
+    attributes:
+      value: |
+        Please confirm the following when creating this feature request.
 
+        Issue Checklist:
+          ✅ I have a clear description of the feature request
+          ✅ I have proposed a solution and provided context and resource
+          ✅ I have assigned a project to this issue
