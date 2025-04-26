@@ -58,7 +58,7 @@ body:
     attributes:
       label: Related Issues
       description: Mention related issue IDs if applicable.
-      placeholder: Ex. Relates to #123
+      placeholder: Ex. Relates to \#123
   - type: textarea
     id: context
     attributes:
