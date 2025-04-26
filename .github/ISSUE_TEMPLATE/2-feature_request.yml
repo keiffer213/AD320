@@ -28,6 +28,20 @@ body:
     attributes:
       label: Relevant Tutorial Links and Resources
       description: Provide a link to a relevant tutorials and resources.
+      placeholder: |
+        Resources:
+        - [Link 1](https://www.example.com)
+        - [Link 2](https://www.example.com)
+      value: |
+        <details>
+          <summary> Expand ⬇️ </summary>
+          <!-- add Tutorials and resources here -->
+          Resources:
+          [](url)
+          [](url)
+
+
+        </details>
   - type: textarea
     id: additional_info
     attributes:
