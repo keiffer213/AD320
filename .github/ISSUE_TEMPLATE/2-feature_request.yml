@@ -32,16 +32,17 @@ body:
         Resources:
         - [Link 1](https://www.example.com)
         - [Link 2](https://www.example.com)
-      value: |
-        <details>
-          <summary> Expand ⬇️ </summary>
-          <!-- add Tutorials and resources here -->
-          Resources:
-          [](url)
-          [](url)
+      # value: |
+      #   <details>
+      #     <summary> Expand ⬇️ </summary>
+      #       <!-- add Tutorials and resources here -->
+      #       <!-- [ display word in here ]( link / address of resource in here ) -->
 
+      #       Resources:
+      #       - [](url)
+      #       - [](url)
 
-        </details>
+      #   </details>
   - type: textarea
     id: additional_info
     attributes:
